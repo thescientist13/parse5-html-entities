@@ -1,0 +1,21 @@
+{
+  "name": "parse5-html-entities",
+  "version": "1.0.0",
+  "description": "A reproduction repo for handling HTML entities with parse5",
+  "main": "index.js",
+  "type": "module",
+  "author": "Owen Buckley <owen@thegreenhouse.io",
+  "scripts": {
+    "clean": "rimraf .greenwood public",
+    "demo": "node .",
+    "build": "greenwood build",
+    "dev": "greenwood develop",
+    "serve": "greenwood serve",
+    "start": "npm run clean && npm run build && npm run serve"
+  },
+  "devDependencies": {
+    "@greenwood/cli": "^0.30.2",
+    "parse5": "^6.0.1",
+    "rimraf": "^6.0.1"
+  }
+}
